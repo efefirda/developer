@@ -1,0 +1,86 @@
+@font-face{
+	font-family: 'Font1';
+	src : url("../font/Montserrat-Light.ttf");
+}
+
+body{
+	font-family: 'Font1';
+}
+body > h1{
+	text-align: center;
+}
+.container1 {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.container1 > .panel {
+    width: 50%;
+    display: flex;
+    margin: 11px;
+    height: 300px;
+}
+.container1 > .panel > .left {
+    width: 45%;
+    background: #c1ebfb;
+    display: flex;
+    align-items: center;
+}
+.container1 > .panel > .left > img {
+    width: 100%
+}
+.container1 > .panel > .right {
+    background-color: #f7ebeb;
+    padding: 25px;
+    width: 55%;
+}
+.container1 > .panel > .right > p {
+    font-size: 27px
+}
+.container2 {
+	display: flex;
+	background-color: #f7f0e0;
+}
+.container2 > .right {
+    width: 65%;
+    padding: 50px 20px;
+}
+.container2 > .right > p{
+    font-size: 14px;
+    line-height: 25px;
+}
+.container2 > .right > h1 {
+    margin-top: 0px;
+}
+.container2 > .left {
+    width: 35%;
+}
+ul {
+  list-style: none;
+}
+
+ul > li {
+    line-height: 25px;
+    font-size: 14px;
+    display: flex;
+}
+
+ul > li::before {
+  content: "\2022";
+  color: deepskyblue;
+  font-weight: bold;
+  font-size: 30px;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+.arrow {
+	font-size: 20px;
+}
+#showbutton {
+    background: none;
+    border: none;
+    color: deepskyblue;
+    font-weight: bold;
+}
